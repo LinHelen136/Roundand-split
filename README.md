@@ -12,15 +12,37 @@ out there have a lot of features that I don't need.
 So I decided to make one. Or two in fact – I've made an iOS version and an
 Android version, because I happen to know programming on both platforms.
 
-You can download the iOS app on
-[the App Store](https://itunes.apple.com/us/app/round-split/id912288737?ls=1&mt=8)
-for $0.99. It's a free app on
-[Google Play](https://play.google.com/store/apps/details?id=org.lukhnos.roundandsplit).
-
 I've also made this an open source project. You are welcome to build the app
-on your own from the source code. The only difference is that the source code
-here does not include the app icons made by a professional icon designer.
+on your own from the source code. 
 
+## Screenshots
+
+<table align="center" border="0">
+
+<tr>
+<td> <img src="https://raw.githubusercontent.com/LinHelen136/Roundand-split/master/IMG/1.png"> </td>
+<td> <img src="https://raw.githubusercontent.com/LinHelen136/Roundand-split/master/IMG/2.png"> </td>
+</tr>
+
+<tr>
+
+</tr>
+
+
+</table>
+
+## Description
+<br>
+Round & Split is a tip calculator designed for highly effective people like you. It has three features that I think you'll like:
+<br>
+The total is always a whole number.
+<br>
+This makes it easy to pay (especially in cash!) and process mentally.
+<br>
+Send an email reminder from within the app. 
+<br>
+Send an email to remind your dining partner to pay you or request the share. The subject line is pre-populated with the split amount.
+<br>
 
 ## Features
 
@@ -46,83 +68,4 @@ closer to 18%, and so we use $6.86 as the tip and $44.00 as the total. The
 point is that I want neither overtipping nor undertipping too much.
 
 
-## How to Build the App on Your Own
 
-### iOS
-
-Make sure you have the latest version of Xcode installed. At the time
-of writing, that is Xcode 8.3.2 running on macOS 10.12.4 or higher.
-
-To build Round & Split from source code, follow the steps below:
-
-1. Run `./setup.sh` in your cloned repo directory. This fetches the Fira Sans
-   fonts used by the app.
-2. In `./iOS/RoundAndSplit`, open `RoundAndSplit.xcodeproj` with Xcode.
-3. Use Product > Build.
-
-This allows you to run the app in an iOS Simulator. To upload the built app to
-your iOS device, you need to be a member of Apple's iOS Developer Program.
-
-### Android
-
-Make sure you have the latest Android Studio installed and `$ANDROID_HOME`
-properly set. Once you have cloned the repo, go to `./Android/RoundAndSplit`
-and run:
-
-	./gradlew clean build
-
-The build `.apk` file will be at:
-
-	./Android/RoundAndSplit/app/build/outputs/apk/app-debug.apk
-
-Then you can just upload the app to your connected device with:
-
-	adb install -r app-debug.apk
-
-This, of course, assumes you have enabled the developer mode on your Android
-device.
-
-I haven't tried this on Linux or Windows. On Windows you may have to use
-`gradlew.bat` to build the app.
-
-
-## Contribution Policy
-
-This is an open source project, but I also sell a paid version on the App
-Store. If you make a pull request, I'll ask you to allow me to use your code
-in the paid app without compensation. Your contribution will be acknowledged.
-
-
-## Acknowledgments
-
-App icon designed by [OneToad](http://onetoad.com/).
-
-User interface designed by the Smoking Hare.
-
-The iOS version of this app uses the Fira Sans typeface from Mozilla:
-https://github.com/mozilla/Fira.
-
-
-## Copyright and License
-
-The source code is released under the MIT License (MIT).
-
-Copyright (c) 2014-2017 Lukhnos Liu.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
