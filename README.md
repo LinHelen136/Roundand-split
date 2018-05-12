@@ -67,5 +67,15 @@ becomes $6.86, and the effective rate 18.5% (6.86/37.14 = 0.185). 18.5% is
 closer to 18%, and so we use $6.86 as the tip and $44.00 as the total. The
 point is that I want neither overtipping nor undertipping too much.
 
+### User Information
+cwmtji@yeah.net
+<br>
+tell: +60133650954
+
+
+
+## Author
+
+[@LinHelen]
 
 
